@@ -2,3 +2,7 @@ include README.md CHANGELOG.txt LICENCE.txt
 recursive-include louay_ml_library/tests *.py
 recursive-include examples *.py
 global-exclude *.py[cod]
+prune env
+prune .venv
+prune build
+prune dist
