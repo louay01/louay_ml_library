@@ -1,0 +1,23 @@
+# Local environments and Python caches
+env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated distributions and metadata
+build/
+dist/
+*.egg-info/
+
+# Test and editor artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Local credentials
+.pypirc
+.env
+.env.*

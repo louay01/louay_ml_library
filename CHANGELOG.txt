@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.0.4 (19/09/2026)
+------------------
+- Train neural networks on complete row-major batches and correct backpropagation.
+- Fix perceptron prediction, constant-feature handling, and model refitting.
+- Standardize fit return values and scalar prediction shapes.
+- Repair tests and add numerical gradient checks and deterministic learning tasks.
+- Correct dependency metadata and document installation and API conventions.
+
+0.01 (17/11/2024)
+-----------------
+- First Release
